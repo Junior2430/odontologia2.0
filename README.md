@@ -1,8 +1,8 @@
-instalar npm install
-instalar npm install react-icons     
-isntalar npm install swiper@6.0.2              
-npm install react-router-dom   
-npm install react-bootstrap bootstrap
+### `instalar npm install
+### instalar npm install react-icons     
+### isntalar npm install swiper@6.0.2              
+### npm install react-router-dom   
+### npm install react-bootstrap bootstrap`
 ### `npm start`
 
 Runs the app in the development mode.\
