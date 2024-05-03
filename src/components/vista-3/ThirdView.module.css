@@ -1,0 +1,83 @@
+/* ThirdView.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .aboutContainer {
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+  }
+  
+  .aboutContent {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .aboutContent h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutContent p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  .imageContainer {
+    flex: 1;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bottomContent {
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .bottomImage {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .bottomImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .missionVision {
+    flex: 1;
+  }
+  
+  .missionVision h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .missionVision p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-align: justify;
+  }
+  

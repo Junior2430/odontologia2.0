@@ -1,0 +1,87 @@
+/* Login-register.module.css */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo semitransparente */
+}
+
+.formWrapper {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.8); /* Borde semitransparente */
+  border-radius: 10px;
+  overflow: hidden; /* Para que el borde semitransparente no afecte la opacidad del contenido */
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 350px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.formContent {
+  flex: 1; /* El contenido ocupa el resto del espacio */
+  background-color: rgba(255, 255, 255, 0.7); /* Color de fondo semitransparente */
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 15px 25px; /* Ajusta el tamaño de las pestañas */
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px; /* Tamaño de fuente más grande */
+  color: #000; /* Color de texto negro */
+  outline: none;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid #333;
+}
+
+.formContainer {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formContainer h2 {
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #555;
+}

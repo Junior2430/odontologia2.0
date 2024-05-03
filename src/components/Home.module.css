@@ -1,0 +1,9 @@
+/* Home.module.css */
+.homeContainer {
+  background-color: #bed4da; /* Azul celeste muy claro */
+  min-height: 100vh; /* Altura mínima igual a la ventana del navegador */
+}
+.secondview{
+  background-color: #bed4da; /* Azul celeste muy claro */
+  min-height: 100vh; /* Altura mínima igual a la ventana del navegador */
+}

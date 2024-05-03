@@ -1,0 +1,44 @@
+/* SecondView.module.css */
+.carouselContainer {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .slide {
+    text-align: center;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+    max-height: 550px; /* Establecemos una altura máxima de 300px */
+  }
+  
+  .slide h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    margin-top: 2%;
+  }
+  
+  .slide p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold; /* Aplicar negrilla */
+    background-color: #5b9be4; /* Añadimos un fondo azul */
+    padding: 10px;
+    border-radius: 5px; /* Agregamos bordes redondeados */
+    display: inline-block; /* Hacemos que el fondo azul tome la medida del contenido */
+    text-align: justify;
+  }
+  

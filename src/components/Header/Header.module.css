@@ -1,0 +1,53 @@
+/* Header.module.css */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+  padding: 0px 10px;
+  background-color: #bed4da;
+  
+}
+
+.logo {
+    width: 350px; /* Ancho del logo */
+    height: 90px; /* Altura ajustada automáticamente */
+    padding: 25px;
+  }
+  
+  .navBar {
+    float: right; /* Alinear la barra de navegación a la derecha */
+    
+  }
+
+  .navList {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    
+  }
+
+  .navList li {
+    display: inline-block; /* Mostrar los ítems en línea */
+    margin-left: 50px; /* Aumentar el espacio entre los ítems */
+  }
+
+  .navList li a {
+    font-size: 20px; /* Aumentar el tamaño de la fuente */
+    color: #000000; /* Color de texto */
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    font-weight: bold; /* Texto en negrita */
+    transition: border-bottom 0.3s; /* Agregar transición a la línea inferior */
+    font-family: Arial, sans-serif; /* Cambia la fuente de los elementos <li> */
+  }
+
+  .navList li a:hover {
+    color: #000000; /* Cambiar el color del texto al pasar el cursor */
+    border-bottom: 5px solid #000000; /* Mostrar una línea inferior al pasar el cursor */
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+    }
+  }

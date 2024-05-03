@@ -1,0 +1,103 @@
+/* Footer.module.css */
+.footer {
+    background-color: #5a8ea0; /* Azul celeste oscuro */
+    padding: 30px 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .column:not(:last-child) {
+    margin-right: 20px;
+    border-right: 2px solid #b5d3dc; /* Línea divisoria entre columnas */
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    margin: 10px 0; /* Ajustamos el margen */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Ajustamos el margen */
+  }
+  
+  a {
+    color: white;
+    text-decoration: none; /* Quitamos el subrayado */
+  }
+  
+  a:hover {
+    color: white; /* Mantenemos el color blanco al pasar el mouse */
+  }
+  
+  iframe {
+    border-radius: 8px;
+  }
+  
+  .mapContainer {
+    position: relative;
+    height: 400px; /* Altura del contenedor del mapa */
+    display:contents;
+    justify-content: center; /* Centramos horizontalmente */
+  }
+  
+  .mapContainer iframe {
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea,
+  button {
+    margin-bottom: 15px; /* Ajustamos el margen */
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #1e7a8c; /* Azul oscuro */
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #155e6e; /* Azul un poco más oscuro al pasar el mouse */
+  }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajustamos el margen superior */
+  }
+  
+  .socialMedia a {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .socialMedia a:last-child {
+    margin-right: 0;
+  }
+  

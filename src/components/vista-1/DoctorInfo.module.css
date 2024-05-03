@@ -1,0 +1,98 @@
+/* DoctorInfo.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Kolker+Brush&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Kolker+Brush&family=Ruge+Boogie&family=Zeyada&display=swap);
+
+@font-face {
+  font-family: "prueba";
+  src: url("../../Assets/Fuentes/prueba_fuente2.ttf") format("truetype"); /* Ruta al archivo de la fuente TrueType (.ttf) */
+}
+
+.doctorInfo {
+  margin-top: 20px; /* Reducir el espaciado entre el header y la imagen */
+  overflow: hidden; /* Evitar que la imagen de decoración se desborde */
+}
+
+.image {
+  float: left; /* Alinear la imagen a la izquierda */
+  width: 33%; /* Ocupar la mitad del espacio disponible */
+  max-width: 100%; /* Ajustar la imagen para que sea responsive */
+  height: 20%;/*, auto*/; /* Establecer una*/
+  max-height: 100% ; /*Ajustar la altura de la  imagen para que sea responsiva */
+}
+
+.image img {
+  width: 100%; /* Hacer que la imagen ocupe todo el espacio disponible */
+}
+
+.text {
+  position: relative; /* Establecer el posicionamiento relativo */
+}
+
+.text h2 {
+  position: relative; /* Establecer el posicionamiento absoluto */
+  top: 50%; /* Colocar el nombre del doctor en la mitad de la altura del contenedor */
+  left: 50%; /* Alinear el nombre del doctor al centro */
+  transform: translate(-50%, -50%); /* Centrar el nombre del doctor */
+  font-family: "prueba", sans-serif; /* Cambiar el tipo de fuente */
+  font-size: 112px; /* Aumentar el tamaño de la fuente */
+  letter-spacing: 18px; /* Aumentar el espaciado entre letras */
+  color: #000000; /* Cambiar el color del texto */
+  margin-bottom: 0; /* Eliminar el margen inferior */
+  background-image: url("../../Assets/images/background.png"); /* Agregar la imagen de decoración como fondo */
+  background-size: contain; /* Ajustar el tamaño de la imagen de decoración */
+  background-repeat: no-repeat; /* Evitar que la imagen de decoración se repita */
+  background-position: calc(50% + 280px) center; /* Centrar la imagen de decoración con un desplazamiento de 10px hacia la derecha */
+}
+
+.text p {
+  position: relative; /* Establecer el posicionamiento absoluto */
+  top: 0%; /* Colocar el nombre del doctor en la mitad de la altura del contenedor */
+  left: -8%; /* Alinear el nombre del doctor al centro */
+  font-family: Arial, sans-serif; /* Cambiar el tipo de fuente */
+  font-size: 26px; /* Cambiar el tamaño de la fuente */
+  line-height: 1.5; /* Ajustar el espaciado entre líneas */
+  color: #000000; /* Cambiar el color del texto */
+  font-weight: bold; /* Aplicar negrilla */
+  text-align: center; /* Alinear el texto al centro */
+  margin-top: 0;
+  
+}
+
+.buttonContainer {
+    text-align: center; /* Centrar el contenido del contenedor */
+  }
+
+.button {
+    position: relative; /* Establecer el posicionamiento absoluto */
+    background-color: #0199ff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    font-family: Arial, sans-serif; /* Cambiar el tipo de fuente */
+    font-size: 20px; /* Tamaño de fuente relativo */
+    border: none; /* Quitar borde del botón */
+    padding: 20px 40px; /* Añadir espacio alrededor del texto del botón */
+    border-radius: 40px; /* Agregar bordes redondeados al botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-weight: bold; /* Aplicar negrilla */
+    left: -8%; /* Alinear el nombre del doctor al centro */
+    margin-top: 150px;
+    
+    
+  }
+  
+  .button:hover {
+    background-color: #226cad; /* Cambiar el color de fondo del botón al pasar sobre él */
+  }
+
+@media screen and (max-width: 768px) {
+  .text h2 {
+    font-size: 1.5em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+
+  .text p {
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+}

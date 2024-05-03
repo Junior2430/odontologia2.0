@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Kolker+Brush&family=Zeyada&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grey+Qo&family=Ingrid+Darling&family=Kolker+Brush&family=Ruge+Boogie&family=Zeyada&display=swap);
+
+
+@font-face {
+  font-family: 'prueba';
+  src: url('../Fuentes/prueba_fuente2.ttf') format('truetype'); /* Ruta al archivo de la fuente TrueType (.ttf) */
+}
+/*presentacion*/
+.mi-h1 {
+    font-family: 'prueba',sans-serif; 
+      font-size: 128px;
+      font-weight: normal; 
+      letter-spacing: 4px;
+      padding-left: 100px;
+      text-align: center;
+      color: #1b1919;
+  }
+
+  .nombre {
+    margin: 0 auto;
+    line-height : 250px;
+  }
+
+ /*FOTO PORTADA*/
+.img-med{
+  height: 580px;
+  margin-bottom: -45%;
+  width: 360px;
+  margin-left: -77%;
+  margin-top: -22%;
+  }
